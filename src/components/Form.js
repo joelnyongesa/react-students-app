@@ -22,7 +22,7 @@ function Form({onAddStudent}){
             lastName: lName,
         }
 
-        fetch('http://localhost:8000/students', {
+        fetch('https://students-api-3n7y.onrender.com/students', {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"

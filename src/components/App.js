@@ -8,7 +8,7 @@ function App() {
   const [students, setStudents] = useState([])
 
   useEffect(()=>{
-    fetch('http://localhost:8000/students')
+    fetch('https://students-api-3n7y.onrender.com/students') 
     .then(r=>r.json())
     .then(data => setStudents(data))
     .catch(e=>console.log(e))

@@ -24,6 +24,21 @@
       "firstName": "Bill",
       "lastName": "Brown",
       "id": 5
+    },
+    {
+      "firstName": "Andrew",
+      "lastName": "Benard",
+      "id": 6
+    },
+    {
+      "firstName": "Jim",
+      "lastName": "Halpert",
+      "id": 7
+    },
+    {
+      "firstName": "Michael",
+      "lastName": "Scott",
+      "id": 8
     }
   ]
 }
